@@ -1,0 +1,23 @@
+Hello Beyond!
+Happy doing bussines with you!
+the following steps show how to get your email automation up and running:
+1. in a folder called files you will see 3 txt files
+2. email_to_be_sent and to_emails are the only ones you need to worry about.
+3. open email_to_be_sent, you will see 2 lines the first line is the subject of the email that will be sent out.
+the second line will be a tag !HTML then following will be a message in HTML. if you wish to switch to plain text email just
+delete the !HTML part and my program will send the following message as text, like so:
+subject
+this is a plain text email. Hello !!name!!
+
+TIP: if you put !!name!! in the message string it will automatically input the recipents name inplace of the !!name!!
+4. open to_emails, put a list of emails in like so:
+blank.blank@gmail.com
+blank.blank@gmail.com
+blank.blank@gmail.com
+blank.blank@gmail.com
+
+my program will parse through the emails and send the message to each adress
+5. open the exe and enter your email and password (yahoo or gmail) and click change
+6. finnaly click toggle sending and it will slowly send the emails (there is a progress bar to monitor the progress)
+7. during sending, spam the x to stop sending emails
+8. ask me for help if there is an error
